@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
     <title>Calculadora Basal</title>
   </head>
   <body>
@@ -12,14 +13,20 @@
         <div class="contenido">
           <h1>Hidratación Basal</h1>
           <input class="item" id="peso" type="number" placeholder="Peso del paciente en KG" />
-          <p class="item" id="error">Prueba error: Debe insertar los datos</p>
+          <p class="item" id="error">Debe ingresar los datos</p>
           <button class="item" id="boton">Calcular</button>
-          <p class="item resultado" id="aux1">Resultado 1: 71cc/h</p>
-          <p class="item resultado" id="aux2">Resultado 2: m+m/2= 105cc/h</p>
+          <ul>
+            <li class="item resultado" id="aux1">cc/dia</li>
+            <li class="item resultado" id="aux2">cc/hr</li>
+            <li class="item resultado" id="aux3">cc/h m+m2</li>
+            <li class="item resultado" id="aux4">cc/dia</li>
+            <li class="item resultado" id="aux5">cc/hr</li>
+            <li class="item resultado" id="aux6">cc/h m+m2</li>
+          </ul>
         </div>
       </div>
       <div id="info">
-        <div class="contenido">
+        <div class="contenido" style="color: black;">
           <h1>¿Cómo se realiza el cálculo?</h1>
           <ul>
             <li>De 0KG a 10KG, se utilizan 100cc por KG.</li>

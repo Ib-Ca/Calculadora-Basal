@@ -44,7 +44,7 @@ body {
 #error {
   color: red;
   font-weight: bold;
-  /* display: none; */
+  display: none;
 }
 
 .resultado {
@@ -52,5 +52,25 @@ body {
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 5px;
-  /*display: none; */
+  display: none;
+}
+
+input {
+	width: 70%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #eee;
+}
+
+button {
+  font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+button:active {
+	transform: scale(0.80);
 }
